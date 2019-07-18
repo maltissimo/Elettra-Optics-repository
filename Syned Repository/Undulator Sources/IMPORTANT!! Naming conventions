@@ -1,6 +1,13 @@
-Here below a description of the naming convention for undulator sources:
+Here below a description of the naming convention for undulator sources. The naming convention allows to quickly identify the the type of source, its period, number of period and the type of storage ring it is created for. 
+
+The general file name has the following shape: 
 
 IDtypePeriod(cm)_#OfPeriods_StorageRing_Lattice_coupling.json. 
+|_________________________| |___________________________|
+  This part refers to the       This part pertains to the
+  ID itself                       storage ring and its
+                                    characteristics
+
 
 An example: 
 
@@ -10,5 +17,5 @@ U = Undulator
 2= 2 cm period
 150= 150 periods
 E2= Elettra 2
-S6BAE= 6 Bends Achromat Enhanced
+S6BAE= Special 6 Bends Achromat Enhanced
 002=2% coupling
