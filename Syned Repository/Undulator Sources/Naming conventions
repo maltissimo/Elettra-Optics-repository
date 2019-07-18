@@ -1,0 +1,15 @@
+Here below a description of the naming convention for undulator sources:
+
+IDtypePeriod(cm)_#OfPeriods_StorageRing_Lattice_coupling.json. 
+
+An example: 
+
+U2_150_E2-S6BAE_002.json
+
+U = Undulator
+2= 2 cm period
+150= 150 periods
+E2= Elettra 2
+S6BAE= 6 Bends Achromat Enhanced
+002=2% coupling
+
