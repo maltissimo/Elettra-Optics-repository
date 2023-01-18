@@ -2,17 +2,17 @@
     "CLASS_NAME": "LightSource",
     "name": "Nanospec, 25 eV, LP",
     "electron_beam": {
-        "CLASS_NAME": "ElectronBeam",
+             "CLASS_NAME": "ElectronBeam",
         "energy_in_GeV": 2.4,
-        "energy_spread": 0.00104,
+        "energy_spread": 0.000934,
         "current": 0.4,
         "number_of_bunches": 400,
-        "moment_xx": 1.5342889e-09,
+        "moment_xx": 2.46016e-09,
         "moment_xxp": 0.0,
-        "moment_xpxp": 3.417922369e-11,
-        "moment_yy": 9.162729e-12,
+        "moment_xpxp": 2.809e-11,
+        "moment_yy": 1.6e-11,
         "moment_yyp": 0.0,
-        "moment_ypyp": 2.29007689e-12
+        "moment_ypyp": 4e-12
     },
     "magnetic_structure": {
         "CLASS_NAME": "Undulator",
